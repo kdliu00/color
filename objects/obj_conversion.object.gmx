@@ -86,7 +86,7 @@ scr_fade_in();
           <argument>
             <kind>1</kind>
             <string>if global.bacon&gt;=5 {
-    if show_question("Convert 5 bacon coins to 200 bacon?") {
+    if show_question_async("Convert 5 bacon coins to 200 bacon?") {
         global.bacon-=5;
         global.money+=200;
     }

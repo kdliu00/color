@@ -95,7 +95,8 @@ scr_fade_in();
 if achievement_available() {
     achievement_show_leaderboards();
 } else {
-    show_message("Sorry, couldn't connect to leaderboards");
+    achievement_login()
+    show_message("Sorry, couldn't connect to leaderboards! Please try again later!");
 }
 </string>
           </argument>

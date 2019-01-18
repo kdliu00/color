@@ -28,7 +28,11 @@
             <string>highscorePosted = false;
 
 if achievement_available() {
-    achievement_post_score("com.tangentgamestudios.colorhighscores", global.highscore);
+    if os_type = os_ios {
+        achievement_post_score("com.tangentgamestudios.colorhighscores", global.highscore);
+    } else {
+        achievement_post_score("CgkIgs2OmqUEEAIQAA", global.highscore);
+    }
 }
 
 scr_save();

@@ -86,7 +86,7 @@ scr_fade_in();
           <argument>
             <kind>1</kind>
             <string>if show_question("Watch video for 10 bacon?") {
-    AdColony_ShowVideoForV4VC("vzfd60cde1c2a349eabf");
+    //AdColony_ShowVideoForV4VC("vzfd60cde1c2a349eabf");
 }
 </string>
           </argument>

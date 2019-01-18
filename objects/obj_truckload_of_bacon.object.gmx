@@ -86,7 +86,7 @@ scr_fade_in();
           <argument>
             <kind>1</kind>
             <string>///iap
-if show_question("Buy Truckload Of Bacon?#(2000 bacon)")=true {
+if show_question_async("Buy Truckload Of Bacon?#(2000 bacon)")=true {
     if iap_status()=iap_status_available {
        if os_type=os_macosx {
           var product="com.tangentgamestudios.mac.truckloadofbacon";

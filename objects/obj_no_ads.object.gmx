@@ -92,7 +92,7 @@ scr_fade_in();
           <argument>
             <kind>1</kind>
             <string>///iap
-if show_question("Get rid of ads?")=true {
+if show_question_async("Get rid of ads?")=true {
     if iap_status()=iap_status_available {
        if os_type=os_macosx {
           var product="com.tangentgamestudios.mac.colornoads";

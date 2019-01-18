@@ -5,7 +5,8 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\GooglePlayServicesExtension</extension>
-    <extension index="1">extensions\AdColonyExtension</extension>
+    <extension index="1">extensions\GooglePlayServicesIAPExtension</extension>
+    <extension index="2">extensions\GooglePlayLicensingAsExt</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="snd_music">

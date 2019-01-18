@@ -92,7 +92,7 @@ scr_fade_in();
           <argument>
             <kind>1</kind>
             <string>///iap restore
-if show_question("Restore purchases?") = true {
+if show_question_async("Restore purchases?") = true {
     iap_restore_all();
 }
 </string>
